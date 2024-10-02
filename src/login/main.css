@@ -1,0 +1,23 @@
+/* Custom styles for Keycloak elements */
+
+/* Example: Styling elements with class names starting with kc */
+[class^="kc"] {
+    font-family: Impact, "Arial Narrow Bold", sans-serif, sans-serif;
+    color: #333;
+}
+
+/* Specific example: Styling the form header */
+.kcFormHeaderClass {
+    background-color: #f3a8a8;
+
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #444;
+}
+
+body.kcBodyClass {
+    background-image: url("https://dev.vigilcloud.3xlogic.com/img/login.6b179b82.png");
+}
+/* Add more custom styles as needed */
