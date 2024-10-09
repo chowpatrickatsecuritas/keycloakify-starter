@@ -38,4 +38,6 @@ export default function KcPage(props: { kcContext: KcContext }) {
     );
 }
 
-const classes = {} satisfies { [key in ClassKey]?: string };
+const classes = {
+    kcHeaderWrapperClass: ""
+} satisfies { [key in ClassKey]?: string };

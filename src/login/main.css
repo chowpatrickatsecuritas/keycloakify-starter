@@ -1,23 +1,49 @@
 /* Custom styles for Keycloak elements */
 
-/* Example: Styling elements with class names starting with kc */
+/* Example: Styling elements with class names starting with kc 
 [class^="kc"] {
-    font-family: Impact, "Arial Narrow Bold", sans-serif, sans-serif;
+    font-family:
+        IBM Plex Sans,
+        sans-serif;
     color: #333;
-}
+    font-size: 16px;
+}*/
 
-/* Specific example: Styling the form header */
+/* Specific example: Styling the form header 
 .kcFormHeaderClass {
-    background-color: #f3a8a8;
+    background-color: #ffffff;
 
     padding: 10px;
     border-radius: 5px;
     text-align: center;
     font-size: 1.5em;
-    color: #444;
+    color: #222222;
+}
+
+
+body.kcBodyClass {
+    background-image: none;
+    background-color: #ffffff;
+}
+/* Add more custom styles as needed */
+
+.kcHeaderWrapperClass {
+    background-image: url(./assets/img/3xLOGIC_logo.svg);
 }
 
 body.kcBodyClass {
-    background-image: url("https://dev.vigilcloud.3xlogic.com/img/login.6b179b82.png");
+    background-image: none;
+    background-color: #b82b2b;
+    font-family:
+        IBM Plex Sans,
+        sans-serif;
 }
-/* Add more custom styles as needed */
+
+.kcLoginClass {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #222222;
+}
